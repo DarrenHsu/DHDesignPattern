@@ -10,11 +10,13 @@ import tw.com.dh.dhdesignpattern.behavioral.CommandPattern.TestCommandPattern;
 import tw.com.dh.dhdesignpattern.behavioral.InterpreterPattern.TestInterpreterPattern;
 import tw.com.dh.dhdesignpattern.behavioral.IteratorPattern.TestIteratorPattern;
 import tw.com.dh.dhdesignpattern.behavioral.MediatorPattern.TestMediatorPattern;
+import tw.com.dh.dhdesignpattern.behavioral.MementoPattern.TestMementoPattern;
 import tw.com.dh.dhdesignpattern.creational.AbstractFectoryPattern.TestAbstractFactoryPattern;
 import tw.com.dh.dhdesignpattern.creational.BuilderPattern.TestBuilderPattern;
 import tw.com.dh.dhdesignpattern.creational.FectoryMethodsPattern.TestFactoryMethodPattern;
 import tw.com.dh.dhdesignpattern.creational.PrototypePattern.TestPrototypePattern;
 import tw.com.dh.dhdesignpattern.creational.SingletonPattern.TestSingletonPattern;
+import tw.com.dh.dhdesignpattern.structural.CompositePattern.TestCompositePattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
 
         testCreational();
         testBehavioral();
+        testStructural();
+    }
+
+    public void testStructural() {
+        Log.i(AppConstant.APP_TAG, "Test Composite");
+        TestCompositePattern.test();
     }
 
     public void testBehavioral() {
@@ -42,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(AppConstant.APP_TAG, "Test Mediator");
         TestMediatorPattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Memento");
+        TestMementoPattern.test();
     }
 
     public void testCreational() {
