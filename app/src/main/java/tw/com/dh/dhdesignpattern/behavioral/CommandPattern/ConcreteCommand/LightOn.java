@@ -1,6 +1,5 @@
 package tw.com.dh.dhdesignpattern.behavioral.CommandPattern.ConcreteCommand;
 
-import tw.com.dh.dhdesignpattern.behavioral.CommandPattern.Command;
 import tw.com.dh.dhdesignpattern.behavioral.CommandPattern.Receiver.Light;
 
 public class LightOn implements Command {

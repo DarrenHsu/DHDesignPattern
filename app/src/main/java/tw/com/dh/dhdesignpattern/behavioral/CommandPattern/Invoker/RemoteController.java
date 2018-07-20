@@ -3,7 +3,7 @@ package tw.com.dh.dhdesignpattern.behavioral.CommandPattern.Invoker;
 
 import java.util.ArrayList;
 
-import tw.com.dh.dhdesignpattern.behavioral.CommandPattern.Command;
+import tw.com.dh.dhdesignpattern.behavioral.CommandPattern.ConcreteCommand.Command;
 
 public class RemoteController {
 
