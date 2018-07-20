@@ -45,8 +45,6 @@ public class TestVisitorPattern {
         parentTag = new HtmlParentElement("<html>");
         parentTag.setStartTag("<html>");
         parentTag.setEndTag("</html>");
-        parentTag.accept(style);
-        parentTag.accept(cssClass);
 
         p1 = new HtmlParentElement("<body>");
         p1.setStartTag("<body>");
