@@ -1,4 +1,4 @@
-package tw.com.dh.dhdesignpattern.structural.AdapterPattern;
+package tw.com.dh.dhdesignpattern.structural.AdapterPattern.Adaptee;
 
 public interface PayX {
     String getCreditCardNo();

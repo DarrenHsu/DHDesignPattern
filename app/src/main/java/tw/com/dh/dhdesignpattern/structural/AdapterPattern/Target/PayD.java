@@ -1,4 +1,4 @@
-package tw.com.dh.dhdesignpattern.structural.AdapterPattern;
+package tw.com.dh.dhdesignpattern.structural.AdapterPattern.Target;
 
 public interface PayD {
     public String getCustCardNo();

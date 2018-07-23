@@ -22,6 +22,7 @@ import tw.com.dh.dhdesignpattern.creational.FectoryMethodsPattern.TestFactoryMet
 import tw.com.dh.dhdesignpattern.creational.PrototypePattern.TestPrototypePattern;
 import tw.com.dh.dhdesignpattern.creational.SingletonPattern.TestSingletonPattern;
 import tw.com.dh.dhdesignpattern.structural.AdapterPattern.TestAdapterPattern;
+import tw.com.dh.dhdesignpattern.structural.BridgePattern.TestBridgePattern;
 import tw.com.dh.dhdesignpattern.structural.CompositePattern.TestCompositePattern;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(AppConstant.APP_TAG, "Test Composite");
         TestCompositePattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Bridge");
+        TestBridgePattern.test();
     }
 
     public void testBehavioral() {

@@ -3,7 +3,10 @@ package tw.com.dh.dhdesignpattern.structural.AdapterPattern;
 import android.util.Log;
 
 import tw.com.dh.constant.AppConstant;
+import tw.com.dh.dhdesignpattern.structural.AdapterPattern.Adaptee.PayX;
+import tw.com.dh.dhdesignpattern.structural.AdapterPattern.Adaptee.PayXImpl;
 import tw.com.dh.dhdesignpattern.structural.AdapterPattern.Adapter.PayXToPayDAdapter;
+import tw.com.dh.dhdesignpattern.structural.AdapterPattern.Target.PayD;
 
 public class TestAdapterPattern {
     public static void test() {
