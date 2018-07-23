@@ -11,6 +11,8 @@ import tw.com.dh.dhdesignpattern.behavioral.InterpreterPattern.TestInterpreterPa
 import tw.com.dh.dhdesignpattern.behavioral.IteratorPattern.TestIteratorPattern;
 import tw.com.dh.dhdesignpattern.behavioral.MediatorPattern.TestMediatorPattern;
 import tw.com.dh.dhdesignpattern.behavioral.MementoPattern.TestMementoPattern;
+import tw.com.dh.dhdesignpattern.behavioral.ObserverPattern.TestObserverPattern;
+import tw.com.dh.dhdesignpattern.behavioral.StatePattern.TestStatePattern;
 import tw.com.dh.dhdesignpattern.behavioral.StrategyPattern.TestStrategyPattern;
 import tw.com.dh.dhdesignpattern.behavioral.TemplateMethodPattern.TestTemplateMethodPattern;
 import tw.com.dh.dhdesignpattern.behavioral.VisitorPattern.TestVisitorPattern;
@@ -62,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(AppConstant.APP_TAG, "Test Strategy");
         TestStrategyPattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test State");
+        TestStatePattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Observer");
+        TestObserverPattern.test();
 
         Log.i(AppConstant.APP_TAG, "Test Template Method");
         TestTemplateMethodPattern.test();
