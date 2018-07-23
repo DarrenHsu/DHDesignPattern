@@ -21,6 +21,7 @@ import tw.com.dh.dhdesignpattern.creational.BuilderPattern.TestBuilderPattern;
 import tw.com.dh.dhdesignpattern.creational.FectoryMethodsPattern.TestFactoryMethodPattern;
 import tw.com.dh.dhdesignpattern.creational.PrototypePattern.TestPrototypePattern;
 import tw.com.dh.dhdesignpattern.creational.SingletonPattern.TestSingletonPattern;
+import tw.com.dh.dhdesignpattern.structural.AdapterPattern.TestAdapterPattern;
 import tw.com.dh.dhdesignpattern.structural.CompositePattern.TestCompositePattern;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void testStructural() {
+        Log.i(AppConstant.APP_TAG, "Test Adapter");
+        TestAdapterPattern.test();
+
         Log.i(AppConstant.APP_TAG, "Test Composite");
         TestCompositePattern.test();
     }
