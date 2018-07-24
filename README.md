@@ -25,6 +25,7 @@
 
 ### 1.5, Singleton
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/singleton.png?raw=true)
+* 某些類別只需要一個實例，來避免因為過多的實例而產生各種各樣的問題及資源的演費，則適用於些模式。
 
 ## 2, Structural Patterns
 
