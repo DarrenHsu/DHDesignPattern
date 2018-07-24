@@ -1,4 +1,4 @@
-package tw.com.dh.dhdesignpattern.structural.ProxyPattern.Subject;
+package tw.com.dh.dhdesignpattern.structural.ProxyPattern.DynamicProxy.Subject;
 
 public interface Star {
     void confer();

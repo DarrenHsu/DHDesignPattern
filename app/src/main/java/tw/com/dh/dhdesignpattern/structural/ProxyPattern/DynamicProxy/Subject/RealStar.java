@@ -1,4 +1,4 @@
-package tw.com.dh.dhdesignpattern.structural.ProxyPattern.Subject;
+package tw.com.dh.dhdesignpattern.structural.ProxyPattern.DynamicProxy.Subject;
 
 import android.util.Log;
 

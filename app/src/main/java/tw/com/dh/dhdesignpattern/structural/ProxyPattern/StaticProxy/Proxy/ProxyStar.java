@@ -1,9 +1,9 @@
-package tw.com.dh.dhdesignpattern.structural.ProxyPattern.Proxy;
+package tw.com.dh.dhdesignpattern.structural.ProxyPattern.StaticProxy.Proxy;
 
 import android.util.Log;
 
 import tw.com.dh.constant.AppConstant;
-import tw.com.dh.dhdesignpattern.structural.ProxyPattern.Subject.Star;
+import tw.com.dh.dhdesignpattern.structural.ProxyPattern.StaticProxy.Subject.Star;
 
 public class ProxyStar implements Star {
     private Star star;

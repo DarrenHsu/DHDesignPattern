@@ -27,7 +27,7 @@ import tw.com.dh.dhdesignpattern.structural.CompositePattern.TestCompositePatter
 import tw.com.dh.dhdesignpattern.structural.DecoratorPattern.TestDecoratorPattern;
 import tw.com.dh.dhdesignpattern.structural.FacadePattern.TestFacadePattern;
 import tw.com.dh.dhdesignpattern.structural.FlyweightPattern.TestFlyweightPattern;
-import tw.com.dh.dhdesignpattern.structural.ProxyPattern.TestProxyPattern;
+import tw.com.dh.dhdesignpattern.structural.ProxyPattern.DynamicProxy.TestProxyPattern;
 
 public class MainActivity extends AppCompatActivity {
 
