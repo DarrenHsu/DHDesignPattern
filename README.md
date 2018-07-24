@@ -31,8 +31,13 @@
 
 ### 2.1, Adapter
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/adapter.png?raw=true)
+* 將兩個不同的接口，透過一個 Adapter 來做介接，使兩個不兼容的接口可以互相溝通，則為此模式
+
 ### 2.2, Bridge
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/bridge.png?raw=true)
+* 當遇到「多層繼承結構」的類別時，例如一個類別中有兩個因素會影響到繼承關係，使得繼承更為複雜。
+* 一個類別中有兩個變化維度，如：電腦類型、電腦品牌。
+
 ### 2.3, Composite
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/composite.png?raw=true)
 ### 2.4, Decorator
