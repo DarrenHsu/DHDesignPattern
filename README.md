@@ -4,6 +4,8 @@
 ## Creational Patterns
 
 ### Abstract Factory
+![](https://github.com/DarrenHsu/DHRunning/blob/master/Screen%20Shot/thumb_IMG_4494_1024.jpg?raw=true)
+
 ### Builder
 ### Factory Method
 ### Prototype
