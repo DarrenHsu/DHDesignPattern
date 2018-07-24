@@ -27,7 +27,7 @@
 ### Facade
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/facade.png?raw=true)
 ### Flyweight
-![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/flyweight?raw=true)
+![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/flyweight.png?raw=true)
 ### Proxy
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/proxy.png?raw=true)
 
