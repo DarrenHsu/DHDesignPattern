@@ -1,5 +1,4 @@
-# DHDesignPattern
-# Java Design Pattern
+# Design Pattern
 
 ## 1, Creational Patterns
 
