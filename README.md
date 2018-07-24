@@ -10,6 +10,9 @@
 
 ### 1.2, Abstract Factory
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/abstract_factory.png?raw=true)
+* 用來產生產品群的全部產品，無法增加新的產品，而是增加產品群。
+* 適用於處理透過「一群」個體組成一項產品，則適用於此模式。
+
 ### 1.3, Builder
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/builder.png?raw=true)
 ### 1.4, Prototype
