@@ -24,6 +24,7 @@ import tw.com.dh.dhdesignpattern.creational.SingletonPattern.TestSingletonPatter
 import tw.com.dh.dhdesignpattern.structural.AdapterPattern.TestAdapterPattern;
 import tw.com.dh.dhdesignpattern.structural.BridgePattern.TestBridgePattern;
 import tw.com.dh.dhdesignpattern.structural.CompositePattern.TestCompositePattern;
+import tw.com.dh.dhdesignpattern.structural.DecoratorPattern.TestDecoratorPattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(AppConstant.APP_TAG, "Test Bridge");
         TestBridgePattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Decorate");
+        TestDecoratorPattern.test();
     }
 
     public void testBehavioral() {
