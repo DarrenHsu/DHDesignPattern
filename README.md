@@ -2,12 +2,16 @@
 
 ## 1, Creational Patterns
 
-### 1.1, Abstract Factory
-![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/abstract_factory.png?raw=true)
-### 1.2, Builder
-![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/builder.png?raw=true)
-### 1.3, Factory Method
+### 1.1, Factory Method
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/factory_method.png?raw=true)
+#### 要點：
+為了解決 Simple Factory 無法滿足 OCP 原則。
+透過每個不同的  Factory 來實現不同的 Product。
+
+### 1.2, Abstract Factory
+![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/abstract_factory.png?raw=true)
+### 1.3, Builder
+![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/builder.png?raw=true)
 ### 1.4, Prototype
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/prototype.png?raw=true)
 ### 1.5, Singleton
