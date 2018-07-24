@@ -18,10 +18,11 @@ public class StarHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
-
         Log.d(AppConstant.APP_TAG, "invoke " + method.getName());
 
-        method.invoke(start, objects);
+        if (method.getName().equals("sing")) {
+            method.invoke(start, objects);
+        }
 
         return null;
     }
