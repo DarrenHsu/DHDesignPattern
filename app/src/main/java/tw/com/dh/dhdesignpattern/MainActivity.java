@@ -25,6 +25,9 @@ import tw.com.dh.dhdesignpattern.structural.AdapterPattern.TestAdapterPattern;
 import tw.com.dh.dhdesignpattern.structural.BridgePattern.TestBridgePattern;
 import tw.com.dh.dhdesignpattern.structural.CompositePattern.TestCompositePattern;
 import tw.com.dh.dhdesignpattern.structural.DecoratorPattern.TestDecoratorPattern;
+import tw.com.dh.dhdesignpattern.structural.FacadePattern.TestFacadePattern;
+import tw.com.dh.dhdesignpattern.structural.FlyweightPattern.TestFlyweightPattern;
+import tw.com.dh.dhdesignpattern.structural.ProxyPattern.TestProxyPattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,6 +53,15 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(AppConstant.APP_TAG, "Test Decorate");
         TestDecoratorPattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Facade");
+        TestFacadePattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Flyweight");
+        TestFlyweightPattern.test();
+
+        Log.i(AppConstant.APP_TAG, "Test Proxy");
+        TestProxyPattern.test();
     }
 
     public void testBehavioral() {
