@@ -15,6 +15,9 @@
 
 ### 1.3, Builder
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/builder.png?raw=true)
+* 需要建構一個複雜的產品，在這個產品中的組件是否在組裝時有組裝步驟的問題。
+* 需實現 Builder 來建告組件，由 Director 來組裝所有的組件。
+
 ### 1.4, Prototype
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/prototype.png?raw=true)
 ### 1.5, Singleton
