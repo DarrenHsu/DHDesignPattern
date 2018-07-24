@@ -20,6 +20,9 @@
 
 ### 1.4, Prototype
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/prototype.png?raw=true)
+* 透過初始化產生一個物件時，需要非常繁鎖的數據準備，或存取方式，可用 Prototype。
+* clone 類似於 new 但不同在於所 clone 出來的物件會完全的複製所有的數據，而非原本的參考。
+
 ### 1.5, Singleton
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/singleton.png?raw=true)
 
