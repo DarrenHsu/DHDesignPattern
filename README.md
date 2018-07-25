@@ -40,14 +40,26 @@
 
 ### 2.3, Composite
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/composite.png?raw=true)
+* 把部份和整體的關係用「樹形」結構表示，而使客戶端可以使用統一的方式處理部份對象和整體對象。
+
 ### 2.4, Decorator
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/decorator.png?raw=true)
+* 動態的為一個對象增加新的功能
+* 是一種用於代替繼承的技術，無須透過繼承增加子類別就能擴展對向的新功能。使用對象的關聯關係代替繼承關係，更加靈活。
+
 ### 2.5, Facade
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/facade.png?raw=true)
+* 為子系統提供了一個統一的入口，封裝子系統的複雜性，便於客戶端的調用。
+
 ### 2.6, Flyweight
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/flyweight.png?raw=true)
+* 如果有很多個完全相同或相似的對象，可以透過此模式來結省內存的稀有資源。
+* 此模式提供了以共享方式高效地支援大量的對象重用。
+* 內部狀態相對獨立，不影響內部狀態
+
 ### 2.7, Proxy
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/proxy.png?raw=true)
+* 透過代理，可以控制對象的訪問，可以詳細控制訪問某個對象的方法，在調用這個方法前做前置處理，調用這個方法後做後置的處理。
 
 ## 3, Behavioral Patterns
 
