@@ -76,11 +76,11 @@
 
 ### 3.3, Interpreter
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/interpreter.png?raw=true)
-* 
+* 用於描述如何構成一個簡單的語言解譯器，可用於使用面對象的語言開發的編譯器及解譯器設計。例如：Math Expression Parser
 
 ### 3.4, Iterator
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/iterator.png?raw=true)
-* 用於描述如何構成一個簡單的語言解譯器，可用於使用面對象的語言開發的編譯器及解譯器設計。例如：Math Expression Parser
+* * 提供了一種可以聚合對象的方式，實現了聚合對象及迭代器的模式。
 
 ### 3.5, Mediator
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/mediator.png?raw=true)
@@ -96,9 +96,16 @@
 
 ### 3.8, State
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/state.png?raw=true)
+* 用於解決系統中不同的狀態的轉換對應到不同的行為時封裝問題。
+
 ### 3.9, Strategy
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/strategy.png?raw=true)
+* 策略模式對應於解決某一個問題的一個算法群，允許用戶透過選擇其中某一個算法解決其中一個問題，同時可以方便的更換或增加新的算法，來滿足客戶端。
+
 ### 3.10, Template Method
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/template_method.png?raw=true)
+* 定義了一個程序的流程結構，將某些步驟延遲到子類別去實現，這樣新的子類別可以在不改變程序流程的情況下重新定義程序中某些步驟。
+
 ### 3.11, Visitor
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/visitor.png?raw=true)
+* 訪問模式為當系統中對象為樹裝結構時，當想改變其中或部份的對象內容或程序時，可以例用此模式實現。
