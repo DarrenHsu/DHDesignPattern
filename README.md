@@ -1,6 +1,7 @@
 # Design Pattern
 
 ## 1, Creational Patterns
+* 關注於系統中對象之間的創建過程。
 
 ### 1.1, Factory Method
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/factory_method.png?raw=true)
@@ -28,6 +29,7 @@
 * 某些類別只需要一個實例，來避免因為過多的實例而產生各種各樣的問題及資源的演費，則適用於些模式。
 
 ## 2, Structural Patterns
+* 關注系統中對象和類別之間的組成。
 
 ### 2.1, Adapter
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/adapter.png?raw=true)
@@ -62,11 +64,16 @@
 * 透過代理，可以控制對象的訪問，可以詳細控制訪問某個對象的方法，在調用這個方法前做前置處理，調用這個方法後做後置的處理。
 
 ## 3, Behavioral Patterns
+* 關注系統中對象的互相的交互，研究系統在運行對象之間的相互通信和動作，進一步了解對象間的職責。
 
 ### 3.1, Chain of Responsibility
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/chain_of_responsibility.png?raw=true)
+* 將能夠處理同一類請求的對象串成一個鏈，所提交的請求沿著鏈結的順序有上而下判斷是否可以在這個階段處理，如果不行這往下一個階段傳送。
+
 ### 3.2, Command
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/command.png?raw=true)
+* 
+
 ### 3.3, Interpreter
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/interpreter.png?raw=true)
 ### 3.4, Iterator
