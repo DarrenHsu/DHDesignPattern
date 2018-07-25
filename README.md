@@ -72,18 +72,28 @@
 
 ### 3.2, Command
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/command.png?raw=true)
-* 
+* 將一個請求封裝為一個對象，從而使我們可以用不同的請求對客戶進行參數化，將請求排隊或記錄log，以支援可撒消的操作。
 
 ### 3.3, Interpreter
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/interpreter.png?raw=true)
+* 
+
 ### 3.4, Iterator
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/iterator.png?raw=true)
+* 用於描述如何構成一個簡單的語言解譯器，可用於使用面對象的語言開發的編譯器及解譯器設計。例如：Math Expression Parser
+
 ### 3.5, Mediator
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/mediator.png?raw=true)
+* 如果在一個系統中的對象關係呈現網狀結構，對象間存在大量多對多的關係，導致對象關係變的複雜，我們可以引入一個中介者對象，都透過他來相互交互，減少複雜度。
+
 ### 3.6, Memento
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/memento.png?raw=true)
+* 當需要保存某個對象內部獎態的，這樣以後就可以將該對象恢復到原先的獎態。
+
 ### 3.7, Observer
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/observer.png?raw=true)
+* 觀察者主要用於1:n的通知，當一個對象(目標對象Subject或Observeable)變化時，他需要即時告知一系列對象(Observer)讓他們做出反應。
+
 ### 3.8, State
 ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/state.png?raw=true)
 ### 3.9, Strategy
