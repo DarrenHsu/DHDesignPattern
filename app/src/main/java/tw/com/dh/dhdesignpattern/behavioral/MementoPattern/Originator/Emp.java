@@ -13,7 +13,7 @@ public class Emp {
         this.salary = salary;
     }
 
-    public EmpMemento memento() {
+    public EmpMemento getMemento() {
         return new EmpMemento(this);
     }
 

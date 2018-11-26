@@ -11,6 +11,11 @@ public class Developer implements Department {
     private Mediator mediator;
 
     public Developer(Mediator mediator) {
+        this.setMediator(mediator);
+    }
+
+    @Override
+    public void setMediator(Mediator mediator) {
         this.mediator = mediator;
         this.mediator.register(Developer.sKEY, this);
     }

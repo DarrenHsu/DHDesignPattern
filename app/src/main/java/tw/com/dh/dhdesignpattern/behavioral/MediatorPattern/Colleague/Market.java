@@ -11,6 +11,11 @@ public class Market implements Department {
     private Mediator mediator;
 
     public Market(Mediator mediator) {
+        this.setMediator(mediator);
+    }
+
+    @Override
+    public void setMediator(Mediator mediator) {
         this.mediator = mediator;
         this.mediator.register(Market.sKEY, this);
     }

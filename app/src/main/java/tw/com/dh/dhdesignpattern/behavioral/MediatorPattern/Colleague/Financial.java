@@ -9,7 +9,13 @@ public class Financial implements Department {
     public static String sKEY = "Financial";
     private Mediator mediator;
 
+
     public Financial(Mediator mediator) {
+        this.setMediator(mediator);
+    }
+
+    @Override
+    public void setMediator(Mediator mediator) {
         this.mediator = mediator;
         this.mediator.register(Financial.sKEY, this);
     }
