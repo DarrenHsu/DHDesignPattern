@@ -159,6 +159,7 @@
 | Diagram | Sample  | 
 | :-:   | :-: | 
 | Diagram<img width=50%/> | Sample<img width=50%/> |
+| :-:   | :-: | 
 | ![img](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/visitor.png) | ![img](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_visitor.png) |
 > * 訪問模式為當系統中對象為樹裝結構時，當想改變其中或部份的對象內容或程序時，可以例用此模式實現。
 </div>
