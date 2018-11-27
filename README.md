@@ -147,7 +147,7 @@
 ### 3.10, Template Method
 | Diagram | Sample  | 
 | :---:   | :-: | 
-| ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/template_method.png?raw=true) | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_template_method.png?raw=true) |
+| ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/template_method.png?raw=true){width=50%} | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_template_method.png?raw=true){width=50%} |
 * 定義了一個程序的流程結構，將某些步驟延遲到子類別去實現，這樣新的子類別可以在不改變程序流程的情況下重新定義程序中某些步驟。
 
 ### 3.11, Visitor
