@@ -1,6 +1,9 @@
+<style>
 .foo table {
     width: 100%;
 }
+</style>
+
 <div class="foo">
 # Design Pattern
 
