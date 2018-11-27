@@ -156,7 +156,7 @@
 > * 定義了一個程序的流程結構，將某些步驟延遲到子類別去實現，這樣新的子類別可以在不改變程序流程的情況下重新定義程序中某些步驟。
 
 ### 3.11, Visitor
-<!--|  |   | -->
+|  |   | 
 | :-:   | :-: | 
 | <img width=50% /> | <img width=50% /> |
 | ![img](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/visitor.png) | ![img](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_visitor.png) |
