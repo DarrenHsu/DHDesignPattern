@@ -15,13 +15,13 @@ public class TestBridgePattern {
         Product product = new CentralLocking("Central Locking System");
         Product product2 = new GearLocking("Gear Locking System");
 
-        Car car = new BigWheel(product , "BigWheel xz model");
+        Car car = new BigWheel(product, "BigWheel xz model");
         car.produceProduct();
         car.assemble();
         car.printDetails();
         Log.d(AppConstant.APP_TAG, "\n\n");
 
-        car = new BigWheel(product2 , "BigWheel xz model");
+        car = new BigWheel(product2, "BigWheel xz model");
         car.produceProduct();
         car.assemble();
         car.printDetails();
