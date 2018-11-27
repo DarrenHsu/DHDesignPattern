@@ -1,3 +1,7 @@
+.foo table {
+    width: 100%;
+}
+<div class="foo">
 # Design Pattern
 
 ## 1, Creational Patterns
@@ -155,3 +159,4 @@
 | :-:   | :-: | 
 | <img src=https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/visitor.png width=100%/> | <img src=https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_visitor.png width=100%/> |
 > * 訪問模式為當系統中對象為樹裝結構時，當想改變其中或部份的對象內容或程序時，可以例用此模式實現。
+</div>
