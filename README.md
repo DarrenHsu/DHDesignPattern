@@ -135,7 +135,7 @@
 ### 3.8, State
 | Diagram | Sample  | 
 | :---:   | :-: | 
-| ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/state.png?raw=true) | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/s_drawable-v24/state.png?raw=true) |
+| ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/state.png?raw=true) | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/s_drawable-v24/s_state.png?raw=true) |
 * 用於解決系統中不同的狀態的轉換對應到不同的行為時封裝問題。
 
 ### 3.9, Strategy
