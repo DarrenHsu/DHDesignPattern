@@ -6,7 +6,7 @@
 ### 1.1, Factory Method
 | Diagram | Sample  | 
 | :-:   | :-: | 
-|<img width=50%/>|<img width=50%/>|
+|<img src=https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/factory_method.png width=50%/>|<img width=50%/>|
 | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/factory_method.png) | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_factory_methods.png) |
 #### 要點：
 > * 為了解決 Simple Factory 無法滿足 OCP 原則。
