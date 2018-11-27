@@ -4,9 +4,8 @@
 * 關注於系統中對象之間的創建過程。
 
 ### 1.1, Factory Method
-| Attempt | #1  | #2  |
-| :---:   | :-: | :-: |
-| Seconds | 301 | 283 |
+| Diagram | Sample  | 
+| :---:   | :-: | 
 | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/factory_method.png?raw=true) | ![](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_factory_methods.png?raw=true) |
 #### 要點：
 * 為了解決 Simple Factory 無法滿足 OCP 原則。
