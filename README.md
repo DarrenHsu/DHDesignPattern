@@ -8,7 +8,7 @@
 ## 1, Creational Patterns
 > * 關注於系統中對象之間的創建過程。
 
-| ### 1.1, Factory Method |
+### 1.1, Factory Method
 | Diagram | Sample  | 
 | :-:   | :-: | 
 | ![img](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/factory_method.png) | ![img](https://github.com/DarrenHsu/DHDesignPattern/blob/master/app/src/main/res/drawable-v24/s_factory_methods.png) |
