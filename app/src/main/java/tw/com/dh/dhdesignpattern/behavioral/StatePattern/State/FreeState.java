@@ -3,10 +3,11 @@ package tw.com.dh.dhdesignpattern.behavioral.StatePattern.State;
 import android.util.Log;
 
 import tw.com.dh.constant.AppConstant;
+import tw.com.dh.dhdesignpattern.behavioral.StatePattern.Context.Context;
 
 public class FreeState implements State {
     @Override
-    public void handle() {
-        Log.d(AppConstant.APP_TAG, "Free state process");
+    public void handle(Context context) {
+        context.free();
     }
 }
