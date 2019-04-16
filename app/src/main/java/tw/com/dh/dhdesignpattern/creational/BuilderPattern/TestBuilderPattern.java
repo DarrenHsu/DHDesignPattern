@@ -13,14 +13,12 @@ public class TestBuilderPattern {
     public static void test() {
         CarBuilder builder = new SedanCarBuilder();
         CarDirector director = new CarDirector(builder);
-        director.build();
-        Car car = builder.getCar();
+        Car car = director.build();
         Log.d(AppConstant.APP_TAG, car.toString());
 
         builder = new SportsCarBuilder();
         director = new CarDirector(builder);
-        director.build();
-        car = builder.getCar();
+        car = director.build();
         Log.d(AppConstant.APP_TAG, car.toString());
     }
 }

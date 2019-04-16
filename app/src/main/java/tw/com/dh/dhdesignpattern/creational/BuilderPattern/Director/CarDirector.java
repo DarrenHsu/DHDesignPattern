@@ -1,6 +1,7 @@
 package tw.com.dh.dhdesignpattern.creational.BuilderPattern.Director;
 
 import tw.com.dh.dhdesignpattern.creational.BuilderPattern.Builder.CarBuilder;
+import tw.com.dh.dhdesignpattern.creational.BuilderPattern.Product.Car;
 
 public class CarDirector {
 
@@ -10,7 +11,7 @@ public class CarDirector {
         mCarBuilder = carBuilder;
     }
 
-    public void build() {
+    public Car build() {
         mCarBuilder.buildBodyStyle();
         mCarBuilder.buildPower();
         mCarBuilder.buildEngine();
@@ -18,5 +19,6 @@ public class CarDirector {
         mCarBuilder.buildSeats();
         mCarBuilder.buildWindows();
         mCarBuilder.buildFuelType();
+        return mCarBuilder.getCar();
     }
 }
